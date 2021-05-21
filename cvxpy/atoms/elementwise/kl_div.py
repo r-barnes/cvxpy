@@ -15,6 +15,7 @@ limitations under the License.
 """
 
 from __future__ import division
+from cvxpy.constraints.constraint import Constraint
 from cvxpy.atoms.elementwise.elementwise import Elementwise
 import numpy as np
 from scipy.special import xlogy
@@ -87,7 +88,7 @@ class kl_div(Elementwise):
                                                            rows, cols)]
             return grad_list
 
-    def _domain(self):
+    def _domain(self) -> List[Constraint]:
         """Returns constraints describing the domain of the node.
         """
         return [self.args[0] >= 0, self.args[1] >= 0]
