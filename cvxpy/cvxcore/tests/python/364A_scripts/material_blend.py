@@ -1,6 +1,8 @@
-import numpy as np
-from cvxpy import Maximize, Problem, Variable
 import time
+
+import numpy as np
+
+from cvxpy import Maximize, Problem, Variable
 
 ANSWERS = []
 TIME = 0

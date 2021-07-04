@@ -1,6 +1,8 @@
-from cvxpy import Minimize, Problem, Variable
-import numpy
 import time
+
+import numpy
+
+from cvxpy import Minimize, Problem, Variable
 
 ANSWERS = []
 TIME = 0 

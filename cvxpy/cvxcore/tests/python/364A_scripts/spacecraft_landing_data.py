@@ -1,9 +1,11 @@
-import numpy as np
-from cvxpy import Minimize, Problem, Variable, norm
-import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d import Axes3D
-from matplotlib import cm
 import time
+
+import matplotlib.pyplot as plt
+import numpy as np
+from matplotlib import cm
+from mpl_toolkits.mplot3d import Axes3D
+
+from cvxpy import Minimize, Problem, Variable, norm
 
 TIME = 0
 

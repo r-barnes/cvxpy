@@ -1,5 +1,6 @@
-from cvxpy import *
 import numpy
+
+from cvxpy import *
 
 x = Variable(2)
 

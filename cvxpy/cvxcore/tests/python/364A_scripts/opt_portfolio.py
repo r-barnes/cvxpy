@@ -1,6 +1,7 @@
 # data and code for multiperiod portfolio rebalancing problem
-import numpy as np
 import time
+
+import numpy as np
 
 ANSWERS = []
 TIME = 0
@@ -23,8 +24,9 @@ kappa_2 = np.matrix([ 0.004, 0.004, 0.004, 0.004, 0.004])
 generateReturns = lambda: np.random.multivariate_normal(mug,Sigma)
 
 
-from cvxpy import *
 import copy
+
+from cvxpy import *
 
 #Getting w_star
 kappa = kappa_2
@@ -79,6 +81,7 @@ w_star = w_star[:,0]
 # - w_star: np.array of size n,
 #       the "target" solution w_star.
 import matplotlib.pyplot as plt
+
 colors = ['b','r','g','c','m']
 plt.figure(figsize=(13,5))
 for j in range(n):

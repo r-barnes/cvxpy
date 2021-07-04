@@ -1,7 +1,9 @@
-import numpy as np
-from cvxpy import Maximize, Problem, quad_form
-import matplotlib.pyplot as pyplot
 import time
+
+import matplotlib.pyplot as pyplot
+import numpy as np
+
+from cvxpy import Maximize, Problem, quad_form
 
 TIME = 0
 ANSWERS = []

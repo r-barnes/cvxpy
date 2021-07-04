@@ -1,7 +1,8 @@
-from cvxpy import Minimize, Problem, sum_entries, sum_squares, Variable
-import numpy
 import time
 
+import numpy
+
+from cvxpy import Minimize, Problem, Variable, sum_entries, sum_squares
 
 ANSWERS = []
 TIME = 0

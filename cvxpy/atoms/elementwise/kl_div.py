@@ -15,10 +15,13 @@ limitations under the License.
 """
 
 from __future__ import division
-from cvxpy.atoms.elementwise.elementwise import Elementwise
+
+from typing import Any, List, Tuple
+
 import numpy as np
 from scipy.special import xlogy
-from typing import Any, List, Tuple
+
+from cvxpy.atoms.elementwise.elementwise import Elementwise
 
 
 class kl_div(Elementwise):

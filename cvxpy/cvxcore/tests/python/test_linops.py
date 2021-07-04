@@ -1,9 +1,11 @@
 import unittest
-from cvxpy import (Constant, ECOS, Minimize, Problem, Variable, conv, diag, hstack, kron, reshape,
-                   settings, trace, upper_tri, vstack)
+
 import numpy as np
-from cvxpy.tests.base_test import BaseTest
 import scipy.sparse as sp
+
+from cvxpy import (ECOS, Constant, Minimize, Problem, Variable, conv, diag,
+                   hstack, kron, reshape, settings, trace, upper_tri, vstack,)
+from cvxpy.tests.base_test import BaseTest
 
 
 class TestLinOps(BaseTest):

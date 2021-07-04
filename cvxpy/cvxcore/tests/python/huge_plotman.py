@@ -1,6 +1,6 @@
-from huge_testman import *
 import matplotlib.pyplot as plt
 import numpy as np
+from huge_testman import *
 
 per_change = []
 errorbars = []

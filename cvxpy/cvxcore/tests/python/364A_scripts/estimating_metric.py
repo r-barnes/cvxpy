@@ -1,11 +1,12 @@
-import numpy as np
-from cvxpy import Minimize, Problem, quad_form, sqrt
-import matplotlib.pyplot as plt
 import copy
 import time
 
-
+import matplotlib.pyplot as plt
+import numpy as np
 from scipy import linalg as la
+
+from cvxpy import Minimize, Problem, quad_form, sqrt
+
 np.random.seed(8)
 
 ANSWERS = []

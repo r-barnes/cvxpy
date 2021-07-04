@@ -1,6 +1,7 @@
 import time
 
 import numpy as np
+
 from cvxpy import Maximize, Problem, Semidef, quad_form
 
 TIME = 0

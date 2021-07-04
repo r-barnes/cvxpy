@@ -1,13 +1,14 @@
-from cvxpy import *
-from os import listdir
-import numpy
 import glob
 import os
 import subprocess
 import time
-import numpy as np
-import matplotlib.pyplot as plt
+from os import listdir
 
+import matplotlib.pyplot as plt
+import numpy
+import numpy as np
+
+from cvxpy import *
 
 
 def run_testfile(filename):

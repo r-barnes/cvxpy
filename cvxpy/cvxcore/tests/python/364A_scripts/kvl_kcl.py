@@ -1,7 +1,8 @@
-import numpy as np
-from cvxpy import Minimize, Problem, Variable, entr, log
 import math
 
+import numpy as np
+
+from cvxpy import Minimize, Problem, Variable, entr, log
 
 ANSWERS = []
 A = np.array(np.mat('-1 -1 0 0 0;\

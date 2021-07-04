@@ -10,10 +10,10 @@
 
 # In[9]:
 
-# Preparation:
-from cvxpy import Minimize, Problem, Variable, norm, settings, sum_squares
 import numpy
 
+# Preparation:
+from cvxpy import Minimize, Problem, Variable, norm, settings, sum_squares
 
 # In[10]:
 

@@ -1,9 +1,11 @@
 # Data file for graph isomorphism problem. A and B are adjacency matrices
 # of two isomorphic graphs
 
-import numpy as np
-from cvxpy import *
 import time
+
+import numpy as np
+
+from cvxpy import *
 
 np.random.seed(0)
 

@@ -1,8 +1,10 @@
-import numpy as np
-from cvxpy import *
-import matplotlib.pyplot as pyplot
 import heapq
 import time
+
+import matplotlib.pyplot as pyplot
+import numpy as np
+
+from cvxpy import *
 
 settings.USE_CVXCANON = True
 ANSWERS = []

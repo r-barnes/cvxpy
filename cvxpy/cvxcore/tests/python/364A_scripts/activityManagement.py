@@ -1,5 +1,6 @@
-from cvxpy import Maximize, Problem, Variable, hstack, vstack
 import numpy as np
+
+from cvxpy import Maximize, Problem, Variable, hstack, vstack
 
 # Create two scalar optimization variables.
 

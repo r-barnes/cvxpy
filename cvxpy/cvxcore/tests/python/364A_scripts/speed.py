@@ -1,11 +1,12 @@
 # data for vehicle speed scheduling problem.
 # contains quantities: n, a, b, c, d, smin, smax, tau_min, tau_max
-import numpy as np
-from cvxpy import Minimize, Problem, Variable
-import matplotlib.pyplot as plt
 import copy
 import time
 
+import matplotlib.pyplot as plt
+import numpy as np
+
+from cvxpy import Minimize, Problem, Variable
 
 n =   100
 a =     1

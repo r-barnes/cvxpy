@@ -1,18 +1,15 @@
-import numpy as np
-from cvxpy import Maximize, Problem, Variable
-import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d import Axes3D
 import copy
 import math
 import time
 
-
-
+import matplotlib.pyplot as plt
 # data file for flux balance analysis in systems biology
 # From Segre, Zucker et al "From annotated genomes to metabolic flux
 # models and kinetic parameter fitting" OMICS 7 (3), 301-316. 
 import numpy as np
+from mpl_toolkits.mplot3d import Axes3D
 
+from cvxpy import Maximize, Problem, Variable
 
 TIME = 0
 # Stoichiometric matrix

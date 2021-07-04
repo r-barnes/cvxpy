@@ -1,10 +1,11 @@
-import numpy as np
-from cvxpy import *
-import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d import Axes3D
 import math
 import time
 
+import matplotlib.pyplot as plt
+import numpy as np
+from mpl_toolkits.mplot3d import Axes3D
+
+from cvxpy import *
 
 n = 10 # number of variables
 k = 6  # number of designs
