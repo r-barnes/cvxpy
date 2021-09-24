@@ -18,7 +18,6 @@ from typing import Any, List, Tuple
 
 import numpy as np
 
-import cvxpy.settings as s
 from cvxpy import problems
 from cvxpy.atoms.elementwise.maximum import maximum
 from cvxpy.atoms.elementwise.minimum import minimum
@@ -33,7 +32,6 @@ from cvxpy.reductions.dcp2cone.atom_canonicalizers import CANON_METHODS
 from cvxpy.reductions.dqcp2dcp import inverse, sets, tighten
 from cvxpy.reductions.inverse_data import InverseData
 from cvxpy.reductions.solution import Solution
-
 
 # A tuple (feas_problem, param, tighten_lower, tighten_upper), where
 #

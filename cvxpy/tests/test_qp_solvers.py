@@ -25,9 +25,7 @@ from cvxpy.atoms import (QuadForm, abs, huber, matrix_frac, norm, power,
 from cvxpy.expressions.variable import Variable
 from cvxpy.reductions.solvers.defines import INSTALLED_SOLVERS, QP_SOLVERS
 from cvxpy.tests.base_test import BaseTest
-from cvxpy.tests.solver_test_helpers import (
-    StandardTestLPs,
-)
+from cvxpy.tests.solver_test_helpers import StandardTestLPs
 
 
 class TestQp(BaseTest):

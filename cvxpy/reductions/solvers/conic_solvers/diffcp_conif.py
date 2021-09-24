@@ -18,9 +18,9 @@ limitations under the License.
 import time
 
 import cvxpy.settings as s
-from cvxpy.reductions.solvers.conic_solvers import scs_conif
-from cvxpy.reductions.solution import failure_solution, Solution
+from cvxpy.reductions.solution import Solution, failure_solution
 from cvxpy.reductions.solvers import utilities
+from cvxpy.reductions.solvers.conic_solvers import scs_conif
 from cvxpy.reductions.solvers.conic_solvers.conic_solver import ConicSolver
 
 

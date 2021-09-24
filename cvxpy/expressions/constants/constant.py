@@ -19,7 +19,6 @@ from typing import List, Optional
 import numpy as np
 import scipy.sparse as sp
 from scipy.sparse.linalg import eigsh
-from scipy.sparse.linalg.eigen.arpack.arpack import ArpackError
 
 import cvxpy.interface as intf
 import cvxpy.lin_ops.lin_utils as lu

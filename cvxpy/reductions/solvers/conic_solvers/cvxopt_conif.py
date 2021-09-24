@@ -20,12 +20,10 @@ import numpy as np
 import scipy
 import scipy.sparse as sp
 from scipy.sparse.linalg import eigsh
-from typing import Dict, List, Union
 
 import cvxpy.interface as intf
 import cvxpy.settings as s
 from cvxpy.constraints import PSD, SOC, NonNeg, Zero
-from cvxpy.expressions.constants.constant import extremal_eig_near_ref
 from cvxpy.reductions.solution import Solution, failure_solution
 from cvxpy.reductions.solvers import utilities
 from cvxpy.reductions.solvers.compr_matrix import compress_matrix
