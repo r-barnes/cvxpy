@@ -16,6 +16,11 @@ limitations under the License.
 
 import abc
 from typing import List, Tuple, Union
+from typing import TYPE_CHECKING
+
+if TYPE_CHECKING:
+    from cvxpy import Constant, Variable
+    from cvxpy.atoms.atom import Atom
 
 from cvxpy.constraints.constraint import Constraint
 from cvxpy.expressions import expression

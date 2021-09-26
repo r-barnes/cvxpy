@@ -14,7 +14,11 @@ See the License for the specific language governing permissions and
 limitations under the License.
 """
 import abc
-from typing import List, Tuple
+from typing import List, Tuple, TYPE_CHECKING
+
+if TYPE_CHECKING:
+    from cvxpy.constraints.constraint import Constraint
+
 
 from cvxpy import interface as intf
 from cvxpy import utilities as u
